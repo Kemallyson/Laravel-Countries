@@ -10,7 +10,7 @@ class CountriesTableSeeder extends Seeder {
     public function run() {
 
         \Illuminate\Support\Facades\DB::table('countries')->delete();
-        $json = \Illuminate\Support\Facades\File::get("database/data/nc_countries.json");
+        $json = \Illuminate\Support\Facades\File::get("database/data/countries.json");
         $data = json_decode($json);
         foreach ($data as $datum){
             Country::create(array(
