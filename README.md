@@ -1,4 +1,4 @@
-# LaravelCountries
+# Laravel Countries seeder using json
 
 This is a laravel repository used to create, migrate and seed countries information to a database. The seeder uses a json source 
 
